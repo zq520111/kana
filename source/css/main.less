@@ -1,0 +1,253 @@
+@colorPrimay : #8CC152;
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+}
+
+a {
+  color:inherit;
+  text-decoration: none;
+}
+body{
+  padding-left: 320px;
+  color:rgba(0,0,0,0.8);
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+
+.site-header {
+  position: fixed;
+  background-color: #fafafa;
+  top:0;
+  bottom:0;
+  left:0;
+  width: 320px;
+  padding:30px;
+  background-size: cover;
+  background-image: url(../img/banner.jpg);
+  color:#fff;
+}
+
+.main-content{
+  max-width: 700px;
+  margin:0 auto;
+  padding:50px 0;
+}
+
+.stream-title {
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-bottom: 2px;
+  text-transform: uppercase;
+}
+
+.stream-item{
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  &-title{
+    font-size: 26px;
+    font-weight: 700;
+    &:hover{
+      color:@colorPrimay;
+    }
+  }
+  &-meta {
+    font-size: 16px;
+    color:rgba(0,0,0,.44);
+  }
+  &-avatar {
+    border-radius: 100%;
+    float:right;
+    width:50px;
+    height:50px;
+  }
+  &-snipper {
+    color:rgba(0,0,0,0.6);
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+  &:last-child{
+    border:0;
+  }
+}
+
+.site-footer{
+  font-size: 14px;
+  color:rgba(0,0,0,.44);
+  font-weight: 700;
+  padding:20px;
+  text-align: center;
+}
+
+.grap{
+  p,ol,ul {
+    margin-bottom: 20px;
+  }
+  strong {
+    font-weight: 700;
+  }
+  em {
+    font-style: italic;
+  }
+  a {
+    text-decoration: underline;
+  }
+  li {
+    margin-left:30px;
+    margin-bottom: 12px;
+    padding-top:2px;
+    &:before {
+      content:"•";
+      box-sizing: border-box;
+      font-size: 14px;
+      margin-left: -58px;
+      padding-right: 15px;
+      display: inline-block;
+      text-align: right;
+      width:58px;
+    }
+  }
+  ol{
+    counter-reset:post;
+    & > li:before {
+      content:counter(post,decimal) ".";
+      counter-increment:post;
+      padding-right:12px;
+    }
+  }
+
+  h2 {
+    color: rgba(0,0,0,0.44);
+    font-size: 22px;
+    margin-top:30px;
+    margin-bottom: 10px;
+  }
+  h3 {
+    color: rgba(0,0,0,0.44);
+    font-size: 18px;
+    margin-top:30px;
+    margin-bottom: 10px;
+  }
+  hr{
+    margin-top: 52px;
+      margin-bottom: 42px;
+      display:block;
+      border:0;
+      text-align: center;
+      &:before{
+        content: '...';
+        display: inline-block;
+        margin-left: 0.6em;
+        color: rgba(0,0,0,0.6);
+        position: relative;
+        top: -30px;
+        font-size: 28px;
+        letter-spacing: 0.6em;
+      }
+  }
+  &--figure{
+    margin-bottom: 20px;
+    .imageCaption{
+      font-size: 12px;
+      color:rgba(0,0,0,0.44);
+      text-align: center;
+    }
+  }
+}
+
+
+.post-header{
+  margin-bottom: 10px;
+  .post-title{
+    font-size: 24px;
+  }
+  .post-meta {
+    font-size: 14px;
+    color:rgba(0,0,0,0.44);
+  }
+}
+
+.author-info{
+  padding:15px 0;
+  border-top: 1px rgba(0,0,0,0.15) solid;
+  .avatar {
+    border-radius: 100%;
+    float:left;
+    margin-right: 15px;
+  }
+}
+
+hgroup {
+  border-bottom: 1px rgba(255,255,255,.9) solid;
+  padding:10px 0;
+  margin-bottom: 20px;
+  .site-description {
+    font-size: 14px;
+  }
+  .site-title{
+    font-size: 32px;
+    &:hover{
+      color:@colorPrimay;
+    }
+  }
+}
+
+.site-nav {
+  font-size: 14px;
+  .menu-item {
+    &:hover{
+      color:@colorPrimay;
+    }
+  }
+}
+
+.posts-nav {
+  text-align: center;
+  padding:10px 0;
+  .page-number{
+    display:inline-block;
+    margin:5px;
+    width:32px;
+    height:32px;
+    line-height: 31px;
+    font-size: 14px;
+    border:1px solid rgba(0,0,0,0.05);
+    border-radius: 3px;
+    color:rgba(0,0,0,.3);
+    &:hover,&.current{
+      background-color: #fafafa;
+    }
+  }
+}
+
+.archive-year-wrap{
+  .archive-year{
+    font-size: 20px;
+    color:rgba(0,0,0,0.44);
+  }
+}
+
+.archive-article-date {
+  color:rgba(0,0,0,0.44);
+  width:100px;
+  display:inline-block;
+}
+
+.article-tag-list-item{
+  font-size: 14px;
+  border:1px rgba(0,0,0,0.05) solid;
+  padding:1px 15px;
+  border-radius: 3px;
+  margin-right: 5px;
+  display:inline-block;
+  color:rgba(0,0,0,0.44);
+}
