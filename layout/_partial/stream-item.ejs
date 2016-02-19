@@ -2,5 +2,5 @@
     <img src="<%= config.root %>img/avatar.png" class="stream-item-avatar">
     <h2 class="stream-item-title"><a href="<%- url_for(post.path) %>"><%= post.title %></a></h2>
     <div class="stream-item-snipper"><%- post.excerpt %></div>
-    <div class="stream-item-meta"><span class="stream-item-author">By <%= config.author %></span> <time><%= date(post.date, null) %></time></div>
+    <div class="stream-item-meta"><span class="stream-item-author">by <%= config.author %></span>, <time><%= date(post.date, null) %></time></div>
     </div>

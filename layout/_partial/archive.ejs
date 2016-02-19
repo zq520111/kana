@@ -18,14 +18,14 @@
     <% var year = post.date.year(); %>
     <% if (last != year){ %>
       <% if (last != null){ %>
-        </div></section>
+        </ul></section>
       <% } %>
       <% last = year; %>
       <section class="archives-wrap">
         <div class="archive-year-wrap">
-          <a href="<%- url_for('archives/' + year) %>" class="archive-year"><%= year %></a>
+          <h3 class="archive-year"><%= year %></h3>
         </div>
-        <div class="archives">
+        <ul class="archives">
     <% } %>
     <%- partial('archive-post', {post: post, even: i % 2 == 0}) %>
   <% }) %>

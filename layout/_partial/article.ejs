@@ -5,6 +5,9 @@
         <div class="post-meta"><%- partial('post/date', {class_name: 'article-date', date_format: null}) %></div>
       </header>
     <% } %>
+    <div class="post-excerpt">
+      <%- post.excerpt %>
+    </div>
     <div class="grap">
       <%- post.content %>
     </div>
@@ -16,3 +19,6 @@
       <% } %>
 </article>
 <%- partial('post/author') %>
+<div id="commnets" class="commnet-wrapper">
+<h3 class="comment-title">Comments</h3>
+  </div>
