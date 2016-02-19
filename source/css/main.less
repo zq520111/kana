@@ -7,7 +7,7 @@
 }
 
 h1,h2,h3,h4,h5,h6{
-  font-weight: 500;
+  font-weight: normal;
 }
 
 ul{
@@ -19,13 +19,20 @@ a {
   text-decoration: none;
 }
 body{
-  padding-left: 320px;
   color:rgba(0,0,0,0.8);
   line-height: 1.8;
   font-size: 16px;
+  font-family: "PingFang SC","Hiragino Sans GB","Microsoft YaHei",STHeiti,"WenQuanYi Micro Hei",Helvetica,Arial,sans-serif;
 }
 
+img {
+  max-width: 100%;
+  height:auto;
+}
 
+.surface-content{
+  padding-left: 320px;
+}
 
 
 .site-header {
@@ -49,11 +56,13 @@ body{
 }
 
 @media(max-width:1000px){
-  body{
+  .surface-content{
     padding-left: 0;
     .site-header{
       position:relative;
       width:auto;
+      text-align: center;
+      padding:15px;
     }
   }
 }
@@ -322,4 +331,19 @@ hgroup {
   margin-bottom: 15px;
   font-size: 18px;
   color:rgba(0,0,0,0.44);
+}
+
+
+.archive-date{
+  display:inline-block;
+  width:80px;
+  color:rgba(0,0,0,0.44);
+}
+
+.archive-title{
+  &:before{
+    content:".";
+    margin-right:15px;
+    color:rgba(0,0,0,0.6);
+  }
 }
