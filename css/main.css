@@ -300,3 +300,13 @@ hgroup .site-title:hover {
   font-size: 18px;
   color: rgba(0, 0, 0, 0.44);
 }
+.archive-date {
+  display: inline-block;
+  width: 80px;
+  color: rgba(0, 0, 0, 0.44);
+}
+.archive-title:before {
+  content: ".";
+  margin-right: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
