@@ -1,5 +1,5 @@
 <%- partial('_partial/head') %>
-<body>
+<body<% if ( theme.animation ) {%> class="is-animated"<% } %>>
     <div class="surface-content">
       <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
       <div class="container">
