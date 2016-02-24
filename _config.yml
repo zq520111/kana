@@ -5,6 +5,8 @@ menu:
   生活: /life
 rss: /atom.xml
 
+avatar: false
+
 # Content
 excerpt_link: Read More
 description: I hate you.
