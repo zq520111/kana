@@ -1,0 +1,10 @@
+<div class="stream-title">Categories</div>
+<div class="cat-items">
+<% site.categories.each(function(category) { %>
+  <div class="cat-item">
+  <div class="cat-item-inner">
+    <div class="cat-info"><div><%= category.name %></div><span class="post-count">20 posts</span></div>
+  </div>
+  </div>
+<% }); %>
+  </div>
