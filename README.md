@@ -2,23 +2,25 @@
 
 [Preview](https://bigfa.github.io/kana/)
 
-## Installation
+## 主题安装
 
-###Install
+### 安装
 
 ```
 $ git clone https://github.com/bigfa/kana.git themes/kana
 
 ```
 
-###Enable
+### 开启
 
-Modify theme setting in _config.yml to cheetah.
+修改 `_config.yml` 主题设置为`kana`
 
-###Update
+### 更新
 
 ```
-cd themes/cheetah
+cd themes/kana
 git pull
 
 ```
+
+## 主题配置

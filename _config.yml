@@ -7,16 +7,14 @@ menu:
   标签: /kana/tags
 rss: /atom.xml
 
+# layout config
 avatar: false
-
+animation: true
 # Content
 excerpt_link: Read More
 description: I hate you.
-animation: true
+
 # Miscellaneous
-google_analytics:
+
 favicon: /favicon.png
-twitter:
-google_plus:
-fb_admins:
-fb_app_id:
+
