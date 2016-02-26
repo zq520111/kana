@@ -1,1 +1,1 @@
-    <li><span class="archive-date"><%= date(post.date, 'MM - D') %></span><span class="archive-title"><%= post.title %></span></li>
+    <li><span class="archive-date"><%= date(post.date, 'MM - D') %></span><a class="archive-title" href="<%- url_for(post.path) %>"><%= post.title %></a></li>

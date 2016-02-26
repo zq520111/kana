@@ -3,7 +3,7 @@
 <% site.categories.each(function(category) { %>
   <div class="cat-item">
   <div class="cat-item-inner">
-    <div class="cat-info"><div><%= category.name %></div><span class="post-count">20 posts</span></div>
+    <div class="cat-info"><div><%= category.name %></div><span class="post-count"><%= category.posts.length %> posts</span></div>
   </div>
   </div>
 <% }); %>

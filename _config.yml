@@ -1,8 +1,10 @@
 # Header
 menu:
-  首页: /
-  归档: /archives
+  首页: /kana
+  归档: /kana/archives
   生活: /life
+  分类: /kana/categories
+  标签: /kana/tags
 rss: /atom.xml
 
 avatar: false
