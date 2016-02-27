@@ -114,8 +114,11 @@ img {
 }
 @media (min-width: 1400px) {
   .main-content {
-    margin-left: 200px;
+    margin-left: 150px;
     margin-right: 0;
+  }
+  .site-header {
+    width: 400px;
   }
 }
 @media (max-width: 1000px) {
