@@ -112,6 +112,12 @@ img {
   padding: 50px 0;
   width: 90%;
 }
+@media (min-width: 1400px) {
+  .main-content {
+    margin-left: 200px;
+    margin-right: 0;
+  }
+}
 @media (max-width: 1000px) {
   .surface-content {
     padding-left: 0;
