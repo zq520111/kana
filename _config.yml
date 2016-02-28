@@ -2,10 +2,10 @@
 menu:
   首页: /kana
   归档: /kana/archives
-  生活: /life
+  关于: /kana/about
   分类: /kana/categories
   标签: /kana/tags
-rss: /atom.xml
+rss: /kana/atom.xml
 
 # layout config
 avatar: false

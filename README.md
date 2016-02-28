@@ -10,6 +10,14 @@
 + 文章列表头像显示开关
 + 更多...
 
+## 依赖插件
++ hexo-front-matter-excerpt
++ hexo-generator-archive
++ hexo-generator-category
++ hexo-generator-feed
++ hexo-generator-tag
++ hexo-renderer-less
+
 ## 主题安装
 
 ### 安装
@@ -38,5 +46,9 @@ git pull
 建议规避代码高亮，主题仅提供了默认pre标签样式
 
 主题支持文章摘要，可安装摘要插件。
+
+### 分类缩略图设置
+
+修改less文件，你有几个分类就把n设置为几，然后安扎你的分类顺序设置图片。
 
 其他都是Hexo　基本配置了，感谢支持。
