@@ -113,12 +113,16 @@ img {
   width: 90%;
 }
 @media (min-width: 1400px) {
+  .surface-content {
+    padding-left: 400px;
+  }
   .main-content {
     margin-left: 150px;
     margin-right: 0;
   }
   .site-header {
     width: 400px;
+    padding: 40px;
   }
 }
 @media (max-width: 1000px) {
@@ -192,6 +196,13 @@ img {
   padding: 20px;
   text-align: center;
   font-family: dinmedium;
+}
+.site-footer .icon-heart {
+  height: 14px;
+  width: 14px;
+  fill: #cc0000;
+  vertical-align: middle;
+  margin-left: 3px;
 }
 .grap p,
 .grap ol,
@@ -429,6 +440,21 @@ hgroup .site-title:hover {
   overflow: hidden;
   padding: 30px 0;
 }
+.cat-item:nth-child(n + 1) {
+  background-image: url('../img/1.jpg');
+}
+.cat-item:nth-child(n + 2) {
+  background-image: url('../img/2.jpg');
+}
+.cat-item:nth-child(n + 3) {
+  background-image: url('../img/3.jpg');
+}
+.cat-item:nth-child(n + 4) {
+  background-image: url('../img/4.jpg');
+}
+.cat-item:nth-child(n + 5) {
+  background-image: url('../img/5.jpg');
+}
 .cat-item {
   width: 32%;
   float: left;
@@ -441,8 +467,17 @@ hgroup .site-title:hover {
   padding: 20px;
   background-size: cover;
   background-position: center;
-  background-image: url(../img/banner.jpg);
   color: #fff;
+  position: relative;
+}
+.cat-item:before {
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
 }
 .cat-item:nth-child(3n) {
   margin-right: 0;
@@ -451,6 +486,7 @@ hgroup .site-title:hover {
   display: table;
   width: 100%;
   height: 100%;
+  position: relative;
 }
 .cat-item-inner .cat-info {
   display: table-cell;

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hayasuki</title>
+  
+  <link href="/kana/atom.xml" rel="self"/>
+  
+  <link href="https://bigfa.github.io/kana/"/>
+  <updated>2016-02-26T03:38:05.000Z</updated>
+  <id>https://bigfa.github.io/kana/</id>
+  
+  <author>
+    <name>dario</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo 主题 kana</title>
+    <link href="https://bigfa.github.io/kana/kana/"/>
+    <id>https://bigfa.github.io/kana/kana/</id>
+    <published>2016-02-24T05:56:42.000Z</published>
+    <updated>2016-02-26T03:38:05.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/kana/images/kana.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;晚上要去北京，老爹早早的把我送到了火车站后就走了。在德客士要了杯可乐就坐着候车，没啥意思，就把电脑拿出来了，想想之前要写一个hexo 主题，于是趁着这段时间就把主题给写了。&lt;/p&gt;
+&lt;p&gt;kana 是我非常喜欢的一位日本艺人的名字，仓科加奈，如果你不知道她是谁，但是你一定看过她滚床单的动图，建议你看一下《海岸天使》来了解下她，她并没有拍过AV，所以就不要费力气找种子了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/kana/images/99661433988902.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;我本身非常不喜欢第三方评论，一生多说黑，所以一开始压根没考虑过评论模块，但是考虑到这是一个开源主题，所以还是把评论模块加上了，当然如果你不配置的话默认是没有评论模块的。你好我好大家好。&lt;/p&gt;
+&lt;p&gt;设计上，一部分参考了早期版本的Medium，没错，我非常喜欢Medium，不但喜欢他们的设计，而且代码风格也非常喜欢，css他们应该是在suit.css上改进的，js因为压缩了，所以无法判断。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      响应式hexo 主题kana
+    
+    </summary>
+    
+      <category term="blog" scheme="https://bigfa.github.io/kana/category/blog/"/>
+    
+    
+      <category term="hexo" scheme="https://bigfa.github.io/kana/tag/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>私房</title>
+    <link href="https://bigfa.github.io/kana/sifang/"/>
+    <id>https://bigfa.github.io/kana/sifang/</id>
+    <published>2016-01-18T05:56:42.000Z</published>
+    <updated>2016-02-25T12:25:21.000Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;/kana/images/1.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/kana/images/2.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/kana/images/3.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      妹子的私房照
+    
+    </summary>
+    
+      <category term="Photography" scheme="https://bigfa.github.io/kana/category/Photography/"/>
+    
+    
+      <category term="妹子" scheme="https://bigfa.github.io/kana/tag/%E5%A6%B9%E5%AD%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>香港</title>
+    <link href="https://bigfa.github.io/kana/hongkong/"/>
+    <id>https://bigfa.github.io/kana/hongkong/</id>
+    <published>2015-12-18T05:56:42.000Z</published>
+    <updated>2016-02-25T12:26:17.000Z</updated>
+    
+    <content type="html">&lt;p&gt;身体和精神总要有一个在路上。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      2015 香港之行
+    
+    </summary>
+    
+      <category term="Travel" scheme="https://bigfa.github.io/kana/category/Travel/"/>
+    
+    
+      <category term="Hongkong" scheme="https://bigfa.github.io/kana/tag/Hongkong/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Github</title>
+    <link href="https://bigfa.github.io/kana/i-love-github/"/>
+    <id>https://bigfa.github.io/kana/i-love-github/</id>
+    <published>2015-11-18T05:56:42.000Z</published>
+    <updated>2016-02-25T12:26:07.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Love github,love my cat.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Love github,love my cat.&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="Github" scheme="https://bigfa.github.io/kana/category/Github/"/>
+    
+    
+      <category term="coding" scheme="https://bigfa.github.io/kana/tag/coding/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最喜欢的歌曲</title>
+    <link href="https://bigfa.github.io/kana/my-favorate-songs/"/>
+    <id>https://bigfa.github.io/kana/my-favorate-songs/</id>
+    <published>2015-05-18T05:56:42.000Z</published>
+    <updated>2016-02-25T12:25:45.000Z</updated>
+    
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;When a man loves a woman&lt;/li&gt;
+&lt;li&gt;Man in the mirror&lt;/li&gt;
+&lt;li&gt;Dog days are over&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;When a man loves a woman&lt;/li&gt;
+&lt;li&gt;Man in the mirror&lt;/li&gt;
+&lt;li&gt;Dog days are over&lt;/li&gt;
+&lt;/ul&gt;
+
+    
+    </summary>
+    
+      <category term="blog" scheme="https://bigfa.github.io/kana/category/blog/"/>
+    
+    
+      <category term="music" scheme="https://bigfa.github.io/kana/tag/music/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>感情在现实面前究竟有多脆弱</title>
+    <link href="https://bigfa.github.io/kana/hello-world/"/>
+    <id>https://bigfa.github.io/kana/hello-world/</id>
+    <published>2015-04-18T05:56:42.000Z</published>
+    <updated>2016-02-25T12:26:35.000Z</updated>
+    
+    <content type="html">&lt;p&gt;长大以后发现自己变成了曾经自己最讨厌的那种人。&lt;/p&gt;
+&lt;h2 id=&quot;u5DE5_u4F5C&quot;&gt;&lt;a href=&quot;#u5DE5_u4F5C&quot; class=&quot;headerlink&quot; title=&quot;工作&quot;&gt;&lt;/a&gt;工作&lt;/h2&gt;&lt;p&gt;作为一个从来没工作过的人，回答这个问题还是比较吃力的。但是还是要谈上一谈。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      最近自己的一个好朋友和男朋友分手了，原因是因为两个人不在一个城市，谁也不愿意让步。
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>当我谈跑步时我谈些什么</title>
+    <link href="https://bigfa.github.io/kana/running/"/>
+    <id>https://bigfa.github.io/kana/running/</id>
+    <published>2015-02-18T05:56:42.000Z</published>
+    <updated>2016-02-25T06:10:17.000Z</updated>
+    
+    <content type="html">&lt;p&gt;作为习惯，身在上海的我每次经过福州路时，都会去古籍书店的三楼转转，那个楼层卖的都是出版社库存的半新不旧的打折书。刚开业那段时间，它的打折方式很有趣，每本书上架时都会打上日期，而这本书的折扣力度也是采取浮动制，从五折到一折，上架日期距离当下的时间越长，折扣就越高。但对于喜欢的书，也不能一味苦等抄一折的底，因为数量有限，很可能被人捷足先登，在三折或者四折时就抢了去。&lt;/p&gt;
+&lt;p&gt;我当时还在学校读书，有时间但没钱，这种售书方式给我和朋友们带来极大的乐趣，有时，我是说偶尔，我们会把一本喜欢的书偷偷藏在书架某个隐蔽的角落，然后等待时间的镰刀慢慢横扫过去。这么做的人肯定不止我们，所以这里的好书时常会在书架间自动漫游，很多人慕名而来，做寻宝和藏宝的游戏。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;后来，或许因为像我们这样的人太多，或许因为其他什么原因，总之这个书店取消了这种浮动定价制，书价再次固定，所有的书从此也就停在某处，一动不动。而我也渐渐工作，多了点闲钱，少了些时间。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;很奇怪的，我见到有两套在市面上算是畅销的书，一直停在古籍书店的三楼某处，无人问津。一套是米兰•昆德拉，一套是村上春树。&lt;/p&gt;
+&lt;p&gt;当然，我也没有问津，虽然他们都曾是我爱读的作家，但迫于某种“抵制媚俗”的压力，我羞于谈论他们，更不必说收入囊中了。相信有很多爱逛折扣书店的人也是如此。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      循着岁月流逝、地点变迁，唯有四分之一个世纪里日日坚持跑步的所见所闻、所惑所思最是真真切切：1982年秋，开始职业作家生涯之际，也开始长跑。此后近30年，从夏威夷的考爱岛到马萨诸塞的剑桥，从日本村上市参加铁人三项赛，到踏上希腊马拉松长跑古道，他，永远奔跑。
+    
+    </summary>
+    
+      <category term="Life" scheme="https://bigfa.github.io/kana/category/Life/"/>
+    
+    
+      <category term="生活" scheme="https://bigfa.github.io/kana/tag/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 初体验</title>
+    <link href="https://bigfa.github.io/kana/hexo/"/>
+    <id>https://bigfa.github.io/kana/hexo/</id>
+    <published>2014-02-18T05:56:42.000Z</published>
+    <updated>2016-02-26T02:39:34.000Z</updated>
+    
+    <content type="html">&lt;p&gt;很久之前就知道Hexo了，大部分用Hexo 的朋友都是托管在Github 上的，由于自己一直用Wp，也就没有去尝试这些新的博客系统。前段时间在写Puma 的时候也顺便写了Ghost 版本，于是就尝试了各种各样的博客系统。Hexo 也是其中之一。我用Github Pages 搭建了一个Hexo 博客，并弄个了Puma 主题，大家可以体验下。&lt;/p&gt;
+&lt;p&gt;首先要说的是由于这些博客程序都是静态或者伪静态的博客，所以只能使用第三方评论系统，这也是我不想使用他们的直接原因。当然，他们的优点还是非常明显的，就是静态页面的速度极快，而且不怕攻击。&lt;/p&gt;
+&lt;p&gt;因为可以直接托管在github pages上，所以如果你直接用github 的二级域名的话那么可以说不用花1分钱，非常的稳健。而且Github 也要稳定很多，虽然有一定被墙的概率。&lt;/p&gt;
+&lt;p&gt;如果按照官网上说的只需要以下几步就可以了，但是如果你不挂上VPN的话很难安装成功。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;npm install hexo-cli -g
+hexo init blog
+cd blog
+npm install
+hexo server
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;相对于Ghost，我更喜欢Hexo，毕竟是直接生成了html静态文件。对服务器要求极低。而且模板语言也非常丰富，我以后会写一些关于Hexo 使用的文章。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      相对于Ghost，我更喜欢Hexo，毕竟是直接生成了html静态文件。对服务器要求极低。而且模板语言也非常丰富，我以后会写一些关于Hexo 使用的文章。
+    
+    </summary>
+    
+      <category term="blog" scheme="https://bigfa.github.io/kana/category/blog/"/>
+    
+    
+      <category term="hexo" scheme="https://bigfa.github.io/kana/tag/hexo/"/>
+    
+  </entry>
+  
+</feed>
