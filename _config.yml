@@ -9,12 +9,9 @@ rss: /kana/atom.xml
 
 # layout config
 avatar: false
-animation: true
+animation: false
+
 # Content
-excerpt_link: Read More
+
 description: I hate you.
-
-# Miscellaneous
-
-favicon: /favicon.png
 
