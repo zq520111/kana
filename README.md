@@ -2,7 +2,7 @@
 
 [Preview](https://bigfa.github.io/kana/)
 
-![](https://static.fatesinger.com/2016/02/279jbc6dqz8xhrn6.png)
+![](https://raw.githubusercontent.com/bigfa/kana/screenshot/kana.jpg)
 
 ## 主题介绍
 + 响应式
