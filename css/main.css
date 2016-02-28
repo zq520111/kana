@@ -63,6 +63,9 @@ body {
   font-size: 16px;
   font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", STHeiti, "WenQuanYi Micro Hei", Helvetica, Arial, sans-serif;
 }
+body.windows {
+  font-family: "Microsoft YaHei", STHeiti, "WenQuanYi Micro Hei", Helvetica, Arial, sans-serif;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -321,16 +324,24 @@ hgroup .site-title:hover {
 .site-nav {
   font-size: 14px;
 }
-.site-nav .menu-item:hover {
+.site-nav .menu-item a {
+  display: inline-block;
+  transition: 0.5s;
+}
+.site-nav .menu-item a:hover {
   color: #8cc152;
+  transform: translate3d(10px, 0, 0);
 }
 @media (max-width: 1000px) {
   .site-nav {
-    font-size: 16px;
+    padding-bottom: 10px;
   }
   .site-nav .menu-item {
     display: inline-block;
     margin-right: 10px;
+  }
+  .site-nav .menu-item a:hover {
+    transform: translate3d(0, 0, 0);
   }
 }
 .posts-nav {
@@ -352,9 +363,21 @@ hgroup .site-title:hover {
 .posts-nav .page-number.current {
   background-color: #fafafa;
 }
+.archives-wrap:after {
+  content: '...';
+  font-size: 24px;
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+.archives-wrap:last-child:after {
+  content: '';
+  display: none;
+}
 .archive-year-wrap .archive-year {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.44);
+  margin: 30px 0 10px;
 }
 .archive-article-date {
   color: rgba(0, 0, 0, 0.44);
@@ -521,6 +544,11 @@ hgroup .site-title:hover {
   position: absolute;
   bottom: 30px;
   left: 30px;
+}
+@media (max-width: 1000px) {
+  .site-icons {
+    display: none;
+  }
 }
 .rss-link {
   display: inline-block;

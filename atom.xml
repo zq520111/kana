@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hayasuki</title>
+  <title>Kana</title>
   
   <link href="/kana/atom.xml" rel="self"/>
   
   <link href="https://bigfa.github.io/kana/"/>
-  <updated>2016-02-26T03:38:05.000Z</updated>
+  <updated>2016-02-28T10:58:52.000Z</updated>
   <id>https://bigfa.github.io/kana/</id>
   
   <author>
@@ -20,14 +20,13 @@
     <link href="https://bigfa.github.io/kana/kana/"/>
     <id>https://bigfa.github.io/kana/kana/</id>
     <published>2016-02-24T05:56:42.000Z</published>
-    <updated>2016-02-26T03:38:05.000Z</updated>
+    <updated>2016-02-28T10:58:52.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;/kana/images/kana.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;晚上要去北京，老爹早早的把我送到了火车站后就走了。在德客士要了杯可乐就坐着候车，没啥意思，就把电脑拿出来了，想想之前要写一个hexo 主题，于是趁着这段时间就把主题给写了。&lt;/p&gt;
 &lt;p&gt;kana 是我非常喜欢的一位日本艺人的名字，仓科加奈，如果你不知道她是谁，但是你一定看过她滚床单的动图，建议你看一下《海岸天使》来了解下她，她并没有拍过AV，所以就不要费力气找种子了。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/kana/images/99661433988902.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;我本身非常不喜欢第三方评论，一生多说黑，所以一开始压根没考虑过评论模块，但是考虑到这是一个开源主题，所以还是把评论模块加上了，当然如果你不配置的话默认是没有评论模块的。你好我好大家好。&lt;/p&gt;
-&lt;p&gt;设计上，一部分参考了早期版本的Medium，没错，我非常喜欢Medium，不但喜欢他们的设计，而且代码风格也非常喜欢，css他们应该是在suit.css上改进的，js因为压缩了，所以无法判断。&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -73,9 +72,12 @@
     <link href="https://bigfa.github.io/kana/hongkong/"/>
     <id>https://bigfa.github.io/kana/hongkong/</id>
     <published>2015-12-18T05:56:42.000Z</published>
-    <updated>2016-02-25T12:26:17.000Z</updated>
+    <updated>2016-02-28T10:52:04.000Z</updated>
     
     <content type="html">&lt;p&gt;身体和精神总要有一个在路上。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/kana/images/hk1.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/kana/images/hk2.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/kana/images/hk3.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
